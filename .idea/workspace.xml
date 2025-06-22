@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main" />
+    <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <change afterPath="$PROJECT_DIR$/src/Numbers/DuckNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Numbers/HarshadNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Numbers/NeonNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/Squere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/SqureAlphabets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/SqureLogicalPatterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LastWord.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +49,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DuckNum.executor": "Run",
+    "Application.HarshadNo.executor": "Run",
     "Application.LastWord.executor": "Run",
     "Application.Missing_Num.executor": "Run",
+    "Application.NeonNo.executor": "Run",
     "Application.Replace_zero_to_five.executor": "Run",
     "Application.Reverse_Number.executor": "Run",
     "Application.Reverse_String.executor": "Run",
+    "Application.Squere.executor": "Run",
+    "Application.SqureAlphabets.executor": "Run",
+    "Application.SqureLogicalPatterns.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
     "Application.plusOne.executor": "Run",
@@ -142,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750483619335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <option name="closed" value="true" />
+      <created>1750483673324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750483673324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
