@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/LargestAndSmallestEle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/EvenAndOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/SearchEle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/SumOfElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DuckNum.executor": "Run",
+    "Application.EvenAndOdd.executor": "Run",
     "Application.HarshadNo.executor": "Run",
     "Application.LargestAndSmallestEle.executor": "Run",
     "Application.LastWord.executor": "Run",
@@ -54,9 +56,11 @@
     "Application.ReverseArray.executor": "Run",
     "Application.Reverse_Number.executor": "Run",
     "Application.Reverse_String.executor": "Run",
+    "Application.SearchEle.executor": "Run",
     "Application.Squere.executor": "Run",
     "Application.SqureAlphabets.executor": "Run",
     "Application.SqureLogicalPatterns.executor": "Run",
+    "Application.SumOfElements.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
     "Application.plusOne.executor": "Run",
@@ -170,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750576751425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <option name="closed" value="true" />
+      <created>1750704955355</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750704955355</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
