@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/EvenAndOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/SearchEle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/SumOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArmStrongNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/ArrayElementRev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/ArrayPrint2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que_45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/ArrayEleSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/FindFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/FirstLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/MostRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/MoveAllZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/One_To_twoDim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/PosAndNeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/ReverseArrayEle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/ReverseArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/AssignmentQue/Two_To_OneDim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/EvenOdd_hirarchy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/FreqOfEle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/RemoveDup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,34 +60,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DuckNum.executor": "Run",
-    "Application.EvenAndOdd.executor": "Run",
-    "Application.HarshadNo.executor": "Run",
-    "Application.LargestAndSmallestEle.executor": "Run",
-    "Application.LastWord.executor": "Run",
-    "Application.Missing_Num.executor": "Run",
-    "Application.NeonNo.executor": "Run",
-    "Application.Replace_zero_to_five.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.Reverse_Number.executor": "Run",
-    "Application.Reverse_String.executor": "Run",
-    "Application.SearchEle.executor": "Run",
-    "Application.Squere.executor": "Run",
-    "Application.SqureAlphabets.executor": "Run",
-    "Application.SqureLogicalPatterns.executor": "Run",
-    "Application.SumOfElements.executor": "Run",
-    "Application.ValidPalindrome.executor": "Run",
-    "Application.ValidParanthesis.executor": "Run",
-    "Application.plusOne.executor": "Run",
-    "Application.remove_Element.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArmStrongNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayEleSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayElementRev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPrint2D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuckNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenAndOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenOdd_hirarchy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFact.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FreqOfEle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HarshadNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestAndSmallestEle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LastWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Missing_Num.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MostRepeating.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveAllZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NeonNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.One_To_twoDim.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PosAndNeg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Replace_zero_to_five.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayEle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_String.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchEle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Squere.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SqureAlphabets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SqureLogicalPatterns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Two_To_OneDim.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParanthesis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.plusOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.remove_Element.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Replace_zero_to_five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Replace_zero_to_five" />
@@ -95,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.remove_Element" />
         <item itemvalue="Application.Reverse_Number" />
+        <item itemvalue="Application.remove_Element" />
         <item itemvalue="Application.Replace_zero_to_five" />
       </list>
     </recent_temporary>
@@ -182,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750704955355</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <option name="closed" value="true" />
+      <created>1750705681166</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750705681166</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
