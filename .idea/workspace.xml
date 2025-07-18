@@ -5,15 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/MostRepeate3rd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que67.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que_38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Sorting/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/CalDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/FindMaxSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/Findmiss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/LessMarksIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/LongestSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/MoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/StringPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/VowelAndCons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/ArrayStringJustify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/ArrayToSub2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/ArrayToSubArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/GetLastWordLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/LambdaFunc1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/MaxSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Missing_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/MostOneCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Sec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/StudentApplication/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/StudentApplication/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/StudentApplication/Mocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/StudentApplication/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/StudentApplication/StudentDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/TripletSubArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching/Binary_Rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching/IntToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching/Linear2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching/RichPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MarkerEx_Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/RecursionSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/Bubble_Sort_Rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/FindEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/Linear_Search_Rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/Selection_sort_Rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Recursion_Sorting/Sorting_Using_Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/Selection_Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que_43_rotateArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysProblems/Assesments/Que_43_rotateArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +85,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Anagram.executor": "Run",
     "Application.ArmStrongNum.executor": "Run",
     "Application.ArrayEleSum.executor": "Run",
     "Application.ArrayElementRev.executor": "Run",
     "Application.ArrayPrint2D.executor": "Run",
+    "Application.ArrayStringJustify.executor": "Run",
+    "Application.ArrayToSub2.executor": "Run",
+    "Application.ArrayToSubArr.executor": "Run",
+    "Application.Binary.executor": "Run",
+    "Application.Binary_Rec.executor": "Run",
     "Application.Bubble.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.Bubble_Sort_Rec.executor": "Run",
+    "Application.CalDigit.executor": "Run",
+    "Application.Check.executor": "Run",
     "Application.DuckNum.executor": "Run",
+    "Application.Employee.executor": "Run",
     "Application.EvenAndOdd.executor": "Run",
     "Application.EvenOdd_hirarchy.executor": "Run",
     "Application.Example.executor": "Run",
+    "Application.FindEmp.executor": "Run",
     "Application.FindFact.executor": "Run",
+    "Application.FindMaxSub.executor": "Run",
+    "Application.Findmiss.executor": "Run",
     "Application.FirstLargest.executor": "Run",
     "Application.FreqOfEle.executor": "Run",
+    "Application.GetLastWordLength.executor": "Run",
     "Application.HarshadNo.executor": "Run",
+    "Application.IntToString.executor": "Run",
+    "Application.LambdaFunc1.executor": "Run",
     "Application.LargestAndSmallestEle.executor": "Run",
     "Application.LastWord.executor": "Run",
+    "Application.LeapYear.executor": "Run",
+    "Application.LessMarksIndex.executor": "Run",
+    "Application.Linear2D.executor": "Run",
+    "Application.Linear_Search_Rec.executor": "Run",
+    "Application.LongestSentence.executor": "Run",
+    "Application.MarkerEx_Selection.executor": "Run",
+    "Application.MaxSumSubArray.executor": "Run",
     "Application.MergeArray.executor": "Run",
     "Application.Missing_Num.executor": "Run",
+    "Application.MostOneCount.executor": "Run",
     "Application.MostRepeate3rd.executor": "Run",
     "Application.MostRepeating.executor": "Run",
     "Application.MoveAllZero.executor": "Run",
+    "Application.MoveZero.executor": "Run",
     "Application.NeonNo.executor": "Run",
     "Application.One_To_twoDim.executor": "Run",
+    "Application.OwnMethod.executor": "Run",
+    "Application.Pattern.executor": "Run",
     "Application.PosAndNeg.executor": "Run",
     "Application.Que40.executor": "Run",
     "Application.Que66.executor": "Run",
@@ -82,38 +144,92 @@
     "Application.Que_45.executor": "Run",
     "Application.RemoveDup.executor": "Run",
     "Application.Replace_zero_to_five.executor": "Run",
+    "Application.RevString.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseArrayEle.executor": "Run",
     "Application.ReverseArrays.executor": "Run",
     "Application.Reverse_Number.executor": "Run",
     "Application.Reverse_String.executor": "Run",
+    "Application.RichPerson.executor": "Run",
     "Application.SearchEle.executor": "Run",
+    "Application.Sec.executor": "Run",
+    "Application.Selection.executor": "Run",
+    "Application.Selection_Sort.executor": "Run",
+    "Application.Selection_sort_Rec.executor": "Run",
+    "Application.Sorting_Using_Comparable.executor": "Run",
     "Application.Squere.executor": "Run",
     "Application.SqureAlphabets.executor": "Run",
     "Application.SqureLogicalPatterns.executor": "Run",
+    "Application.StringPal.executor": "Run",
+    "Application.StudentDriver.executor": "Run",
+    "Application.SumN.executor": "Run",
     "Application.SumOfElements.executor": "Run",
+    "Application.TripletSubArr.executor": "Run",
     "Application.Two_To_OneDim.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
+    "Application.VowelAndCons.executor": "Run",
+    "Application.getSubarray.executor": "Run",
     "Application.plusOne.executor": "Run",
     "Application.remove_Element.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Replace_zero_to_five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replace_zero_to_five" />
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.Recursion_Sorting.Employee" />
       <module name="DailyDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.Recursion_Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reverse_Number" />
+    <configuration name="FindEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.Recursion_Sorting.FindEmp" />
       <module name="DailyDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.Recursion_Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.Recursion_Sorting.Pattern" />
+      <module name="DailyDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.Recursion_Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorting_Using_Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.Recursion_Sorting.Sorting_Using_Comparable" />
+      <module name="DailyDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.Recursion_Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,9 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reverse_Number" />
+        <item itemvalue="Application.FindEmp" />
+        <item itemvalue="Application.Sorting_Using_Comparable" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.remove_Element" />
-        <item itemvalue="Application.Replace_zero_to_five" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751353754195</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <option name="closed" value="true" />
+      <created>1751365622311</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751365622311</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,5 +400,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main" />
     <option name="LAST_COMMIT_MESSAGE" value="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Searching/Binary.java</url>
+          <line>3</line>
+          <properties class="Searching.Binary" method="getIndex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
