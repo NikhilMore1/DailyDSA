@@ -1,9 +1,13 @@
 package Amazon.Arrays;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 public class FindMaxSub {
     public static ArrayList<Integer> getMax(int[] arr,int k){
         ArrayList<Integer> ans = new ArrayList<Integer>();
+
+
         for(int i = 0;i<=k;i++){
             int max = arr[i];
             for(int j =i;j<i+k;j++){

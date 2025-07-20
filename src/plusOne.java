@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class plusOne {
     public static void main(String[] args) {
-        int[] digit = new int[]{9};
+        int[] digit = new int[]{9,9};
         int[] result = plusOne(digit);
 
         for (int i = 0; i < result.length; i++) {
