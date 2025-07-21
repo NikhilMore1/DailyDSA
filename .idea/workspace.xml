@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/GroupOfAnagrames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysProblems/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch_All/BinarySearchBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch_All/FloorOfTarger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +48,7 @@
     "Application.ArrayStringJustify.executor": "Run",
     "Application.ArrayToSub2.executor": "Run",
     "Application.ArrayToSubArr.executor": "Run",
+    "Application.Basics.executor": "Run",
     "Application.Binary.executor": "Run",
     "Application.BinarySearchBasics.executor": "Debug",
     "Application.Binary_Rec.executor": "Run",
@@ -70,6 +65,7 @@
     "Application.FindEmp.executor": "Run",
     "Application.FindFact.executor": "Run",
     "Application.FindMaxSub.executor": "Run",
+    "Application.Find_the_max_char_than_target.executor": "Run",
     "Application.Findmiss.executor": "Run",
     "Application.FirstLargest.executor": "Run",
     "Application.FloorOfTarger.executor": "Run",
@@ -338,7 +334,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753008744584</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <option name="closed" value="true" />
+      <created>1753029785426</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753029785426</updated>
+    </task>
+    <task id="LOCAL-00016" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
+      <option name="closed" value="true" />
+      <created>1753118319935</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753118319935</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,15 +406,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BinarySearch_All/FloorOfTarger.java</url>
-          <line>8</line>
-          <properties class="BinarySearch_All.FloorOfTarger" method="getFloor">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
