@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java" />
+    <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/FindPosOfEle_InfinitSizeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch_All/PickEleMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/Binary.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +73,7 @@
     &quot;Application.FindEmp.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindFact.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindMaxSub.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPosOfEle_InfinitSizeArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.Find_the_max_char_than_target.executor&quot;: &quot;Run&quot;,
     &quot;Application.Findmiss.executor&quot;: &quot;Run&quot;,
     &quot;Application.FirstLargest.executor&quot;: &quot;Run&quot;,
@@ -99,6 +105,7 @@
     &quot;Application.One_To_twoDim.executor&quot;: &quot;Run&quot;,
     &quot;Application.OwnMethod.executor&quot;: &quot;Run&quot;,
     &quot;Application.Pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PickEleMountainArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.PosAndNeg.executor&quot;: &quot;Run&quot;,
     &quot;Application.Que40.executor&quot;: &quot;Run&quot;,
     &quot;Application.Que66.executor&quot;: &quot;Run&quot;,
@@ -411,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753256523394</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
+      <option name="closed" value="true" />
+      <created>1753256552890</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753256552890</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,15 +476,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Searching/Binary.java</url>
-          <line>3</line>
-          <properties class="Searching.Binary" method="getIndex">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Recurssion/Recurssion2.java</url>
           <line>3</line>
@@ -484,6 +490,11 @@
           <url>file://$PROJECT_DIR$/src/Strings/SmallestEle.java</url>
           <line>6</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Searching/Binary.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
