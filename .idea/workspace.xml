@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
-      <change afterPath="$PROJECT_DIR$/src/ReverseWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/FrequencyOfWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/DupElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/PalindromString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Strings/MyStringDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/MyStringDrive.java" afterDir="false" />
     </list>
@@ -66,6 +66,7 @@
     &quot;Application.CalDigit.executor&quot;: &quot;Run&quot;,
     &quot;Application.Check.executor&quot;: &quot;Run&quot;,
     &quot;Application.DuckNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DupElement.executor&quot;: &quot;Run&quot;,
     &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
     &quot;Application.EvenAndOdd.executor&quot;: &quot;Run&quot;,
     &quot;Application.EvenOdd_hirarchy.executor&quot;: &quot;Run&quot;,
@@ -105,6 +106,7 @@
     &quot;Application.NeonNo.executor&quot;: &quot;Run&quot;,
     &quot;Application.One_To_twoDim.executor&quot;: &quot;Run&quot;,
     &quot;Application.OwnMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromString.executor&quot;: &quot;Run&quot;,
     &quot;Application.Pattern.executor&quot;: &quot;Run&quot;,
     &quot;Application.PickEleMountainArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.PosAndNeg.executor&quot;: &quot;Run&quot;,
@@ -165,7 +167,7 @@
       <ReportDescription localRun="true" path="C:\Users\moren\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="5df72c97-b844-4dd7-a183-1007a5cee2b9" reportId="DailyDSA/qodana/2025-07-21" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Employee">
     <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.Recursion_Sorting.Employee" />
       <module name="DailyDSA" />
@@ -436,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753425026572</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
+      <option name="closed" value="true" />
+      <created>1753512703654</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1753512703654</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

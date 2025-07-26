@@ -235,25 +235,20 @@ final class MyString
         return arr1;
     }
 
-    public MyString replaceFirst(MyString regex,MyString replacement){
-        if(arr.length < regex.length()){
-            return new MyString("String is not enought to replace");
-        }
-        char e = regex.charAt(0);
-        char[] ans = replacement.toCharArray();
-        for (int i =0;i<arr.length;i++){
-            if(arr[i] == e){
-                arr[i] = ans[i];
-            }
-        }
-        return new MyString(arr);
-    }
+//    public MyString replaceFirst(MyString regex,MyString replacement){
+//        if(arr.length < regex.length()){
+//            return new MyString("String is not enought to replace");
+//        }
+//        for (int i = 0;i<arr.length;i++){
+//
+//        }
+//    }
 }
 
 public class MyStringDrive {
     public static void main(String[] args) {
-        MyString s = new MyString("hello nikhil");
-        System.out.println(s.replaceFirst(new MyString(" "),new MyString("nn")));
+//        MyString s = new MyString("hello nikhil");
+//        System.out.println(s.replaceFirst(new MyString(" "),new MyString("nn")));
 //        String str = "Hello Java ";
 //        System.out.println(str.replaceAll(" ","He"));
         // String str = new String();
