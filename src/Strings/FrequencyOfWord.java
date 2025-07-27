@@ -29,13 +29,17 @@ public class FrequencyOfWord {
                     }
                 }
             }
+//            if(count==1){
+//                System.out.println(arr[i]);
+//                break;
+//            }
 //            if(count>0){
 //                System.out.println(arr[i]+" "+count);
 //            }
-            if(count>max){
-                max = count;
-                maxStr = arr[i];
-            }
+//            if(count>max){
+//                max = count;
+//                maxStr = arr[i];
+//            }
         }
         System.out.println(minWord);
     }

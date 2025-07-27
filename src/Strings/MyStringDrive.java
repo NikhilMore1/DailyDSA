@@ -235,25 +235,47 @@ final class MyString
         return arr1;
     }
 
-//    public MyString replaceFirst(MyString regex,MyString replacement){
-//        if(arr.length < regex.length()){
-//            return new MyString("String is not enought to replace");
-//        }
-//        for (int i = 0;i<arr.length;i++){
-//
-//        }
-//    }
-}
+    public MyString subString(int begin,int last){
+        if(begin<0 || last > arr.length|| begin>last){
+            throw new MyStringIndexOutOfBoundException("Please Enter valid index");
+        }
+        StringBuilder str1 = new StringBuilder();
+        for (int i = begin;i<last;i++){
+            str1.append(arr[i]);
+        }
+        return new MyString(str1);
+    }
+    public MyString subString(int begin){
+        if(begin<0){
+            return new MyString("Index is small");
+        }
+        char[] newArr = new char[arr.length-begin];
+        for (int i = 0;i<newArr.length;i++){
+            newArr[i] = arr[begin];
+            begin++;
+        }
+        return new MyString(newArr);
+    }
+    public boolean equalsIgnoreCase(MyString str){
+        MyString str1 = new MyString(arr);
+        if (str1.toLowerCase().equals(str.toLowerCase())){
+            return true;
+        }
+        return false;
+    }
+    public boolean contentEquals(StringBuilder sb){
+        MyString str = new MyString(arr);
+        for (int i =0;i<arr.length;i++){
+            if(arr[i] != sb.charAt(i)){
+                return false;
+            }
+        }
+        return true;
+    }
+    }
 
 public class MyStringDrive {
     public static void main(String[] args) {
-//        MyString s = new MyString("hello nikhil");
-//        System.out.println(s.replaceFirst(new MyString(" "),new MyString("nn")));
-//        String str = "Hello Java ";
-//        System.out.println(str.replaceAll(" ","He"));
-        // String str = new String();
-        // System.out.println(str);
-
         // String str = new String(arr);
         // System.out.println(str);
 
