@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/FIndAllDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/ArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/KadensAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/MaximumSumSubArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/SubArrayCountIsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MissingNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/AplhabetsSumUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CapitalizeFirstChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CheckRotationString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CombinationOfNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LastStringLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LongestSubStringFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/NonRepeatingSubStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Panagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/SortChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/VowelAndConsonent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +74,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Anagram.executor": "Run",
+    "Application.AplhabetsSumUnique.executor": "Run",
     "Application.ArmStrongNum.executor": "Run",
     "Application.ArrayEleSum.executor": "Run",
     "Application.ArrayElementRev.executor": "Run",
+    "Application.ArrayIsSorted.executor": "Run",
     "Application.ArrayPrint2D.executor": "Run",
     "Application.ArrayStringJustify.executor": "Run",
     "Application.ArrayToSub2.executor": "Run",
@@ -71,7 +91,10 @@
     "Application.BubbleSort.executor": "Run",
     "Application.Bubble_Sort_Rec.executor": "Run",
     "Application.CalDigit.executor": "Run",
+    "Application.CapitalizeFirstChar.executor": "Run",
     "Application.Check.executor": "Run",
+    "Application.CheckRotationString.executor": "Run",
+    "Application.CombinationOfNum.executor": "Run",
     "Application.CustomArrayList.executor": "Run",
     "Application.CyclicSort.executor": "Run",
     "Application.Driver.executor": "Run",
@@ -97,6 +120,7 @@
     "Application.GroupOfAnagrames.executor": "Run",
     "Application.HarshadNo.executor": "Run",
     "Application.IntToString.executor": "Run",
+    "Application.KadensAlgo.executor": "Run",
     "Application.LambdaFunc1.executor": "Run",
     "Application.LargestAndSmallestEle.executor": "Run",
     "Application.LastWord.executor": "Run",
@@ -104,11 +128,16 @@
     "Application.LessMarksIndex.executor": "Run",
     "Application.Linear2D.executor": "Run",
     "Application.Linear_Search_Rec.executor": "Run",
+    "Application.LongestPalindrom.executor": "Run",
     "Application.LongestSentence.executor": "Run",
+    "Application.LongestSubString.executor": "Run",
+    "Application.LongestSubStringFromString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MarkerEx_Selection.executor": "Run",
     "Application.MaxSumSubArray.executor": "Run",
+    "Application.MaximumSumSubArr.executor": "Run",
     "Application.MergeArray.executor": "Run",
+    "Application.MissingNums.executor": "Run",
     "Application.Missing_Num.executor": "Run",
     "Application.MostOneCount.executor": "Run",
     "Application.MostRepeate3rd.executor": "Run",
@@ -117,9 +146,12 @@
     "Application.MoveZero.executor": "Run",
     "Application.MyStringDrive.executor": "Run",
     "Application.NeonNo.executor": "Run",
+    "Application.NonRepeatingSubStr.executor": "Run",
     "Application.One_To_twoDim.executor": "Run",
     "Application.OwnMethod.executor": "Run",
     "Application.PalindromString.executor": "Run",
+    "Application.PalindromeTwoP.executor": "Run",
+    "Application.Panagram.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.PickEleMountainArray.executor": "Run",
     "Application.PosAndNeg.executor": "Run",
@@ -131,6 +163,7 @@
     "Application.Que_45.executor": "Run",
     "Application.Recurssion2.executor": "Run",
     "Application.RemoveDup.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
     "Application.Replace_zero_to_five.executor": "Run",
     "Application.RevString.executor": "Run",
     "Application.ReverseArray.executor": "Run",
@@ -149,12 +182,14 @@
     "Application.Selection_Sort.executor": "Run",
     "Application.Selection_sort_Rec.executor": "Run",
     "Application.SmallestEle.executor": "Run",
+    "Application.SortChars.executor": "Run",
     "Application.Sorting_Using_Comparable.executor": "Run",
     "Application.Squere.executor": "Run",
     "Application.SqureAlphabets.executor": "Run",
     "Application.SqureLogicalPatterns.executor": "Run",
     "Application.StringPal.executor": "Run",
     "Application.StudentDriver.executor": "Run",
+    "Application.SubArrayCountIsK.executor": "Run",
     "Application.SumN.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.SumOfElements.executor": "Run",
@@ -163,6 +198,7 @@
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParanthesis.executor": "Run",
     "Application.VowelAndCons.executor": "Run",
+    "Application.VowelAndConsonent.executor": "Run",
     "Application.WildCards.executor": "Run",
     "Application.getSubarray.executor": "Run",
     "Application.plusOne.executor": "Run",
@@ -476,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753626995251</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
+      <option name="closed" value="true" />
+      <created>1753628931117</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1753628931117</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

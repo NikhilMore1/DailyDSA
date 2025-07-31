@@ -1,29 +1,43 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.io.*;
+import java.util.*;
 
-class Main {
-    public List<Integer> findDisappearedNumbers(int[] nums) {
-        ArrayList<Integer> a = new ArrayList<>();
-        int i = 0;
-        while (i < nums.length) {
-            int correct = nums[i];
-            if (correct < nums.length && nums[i] != nums[correct]) {
-                swap(nums, i, correct);
-            } else {
-                i++;
+public class Main {
+
+    public static void main(String[] args) {
+        //Dutch National flag algorithm
+        //Brute Force Solution
+        // time complexity O(n2)
+        //space complexity O(1)
+        Scanner sc  =new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] arr = new int[size];
+        for (int i = 0;i<arr.length;i++){
+            arr[i] = sc.nextInt();
+            if (arr[i]>2){
+                System.out.println("Plese enter value in range ");
             }
         }
-        for (int j = 0; j < nums.length; j++) {
-            if (nums[j] != j) {
-               a.add(j);
+        System.out.println(Arrays.toString(arr));
+        ArrayList<Integer> arr1 = new ArrayList<>();
+        int cnt0 = 0,cnt1 = 0,cnt2 = 0;
+        for (int i = 0;i<arr.length;i++){
+            if (arr[i] == 0){
+                cnt0++;
+            } else if (arr[i] == 1) {
+                cnt1++;
+            }else {
+                cnt2++;
             }
         }
-        return a;
-    }
-
-    public void swap(int[] nums, int first, int second) {
-        int temp = nums[first];
-        nums[first] = nums[second];
-        nums[second] = temp;
+      for (int i = 0;i<cnt0;i++){
+          arr1.add(0);
+      }
+      for (int i = 0;i<cnt1;i++){
+          arr1.add(1);
+      }
+        for (int i = 0;i<cnt2;i++){
+            arr1.add(2);
+        }
+        System.out.println(arr1);
     }
 }
