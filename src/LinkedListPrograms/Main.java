@@ -2,20 +2,15 @@ package LinkedListPrograms;
 
 public class Main {
     public static void main(String[] args) {
-        LinkList list = new LinkList();
-        list.insertFirst(10);
-        list.insertFirst(12);
-        list.insertFirst(30);
-        list.insertFirst(50);
-        list.insertLast(1000);
-        list.insertFirst(12);
-        list.insertFirst(30);
-        list.insertFirst(50);
-        list.insertInMid(2000,3);
-        list.deleteFirst();
-//        list.deleteLast();
-        list.deleteLast();
-        list.update(80,7);
-        list.display();
+    CustomDoublyLinkedList<Integer>list = new CustomDoublyLinkedList<>();
+    list.addFirst(10);
+    list.addFirst(20);
+    list.addFirst(30);
+    list.addFirst(40);
+    list.addLast(80);
+    list.Display();
+    list.addMid(2,100);
+        list.Display();
+
     }
 }
