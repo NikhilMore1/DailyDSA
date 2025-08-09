@@ -7,7 +7,7 @@ public class DupElement {
     }
     public static void getCount(String str){
         char[] arr = str.toCharArray();
-        int count = 0;
+        var count = 0;
         for (int i =0;i<arr.length;i++){
             int count1 = 0;
             for (int j =i;j<arr.length;j++){
