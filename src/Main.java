@@ -1,43 +1,43 @@
-import java.io.*;
-import java.util.*;
-
 public class Main {
-
     public static void main(String[] args) {
-        //Dutch National flag algorithm
-        //Brute Force Solution
-        // time complexity O(n2)
-        //space complexity O(1)
-        Scanner sc  =new Scanner(System.in);
-        int size = sc.nextInt();
-        int[] arr = new int[size];
-        for (int i = 0;i<arr.length;i++){
-            arr[i] = sc.nextInt();
-            if (arr[i]>2){
-                System.out.println("Plese enter value in range ");
-            }
-        }
-        System.out.println(Arrays.toString(arr));
-        ArrayList<Integer> arr1 = new ArrayList<>();
-        int cnt0 = 0,cnt1 = 0,cnt2 = 0;
-        for (int i = 0;i<arr.length;i++){
-            if (arr[i] == 0){
-                cnt0++;
-            } else if (arr[i] == 1) {
-                cnt1++;
-            }else {
-                cnt2++;
-            }
-        }
-      for (int i = 0;i<cnt0;i++){
-          arr1.add(0);
-      }
-      for (int i = 0;i<cnt1;i++){
-          arr1.add(1);
-      }
-        for (int i = 0;i<cnt2;i++){
-            arr1.add(2);
-        }
-        System.out.println(arr1);
+        /*
+        1 Non access modifiers --> 8
+        * static
+        * final
+        * abstract
+        * native
+        * syncronise
+        * transient
+        * strictfp
+        * volatile
+
+
+         jvm arc
+         1 class loader subsystem
+         1.1 loader
+         bootstrap class
+         user class
+         abstract class
+         1.2 linking
+         verification
+         preparation
+         resolution
+         1,3 initialization
+
+         2.memory area
+         method area
+         heap area
+         stack area
+         pc register
+         native memory area
+
+         3 execution engine
+         3.1 Intepreter
+         3.2 JIT
+         3.3 profiler
+         3.4 Native methods Interface
+
+
+        * */
     }
 }

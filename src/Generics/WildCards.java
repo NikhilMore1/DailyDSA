@@ -2,20 +2,19 @@ package Generics;
 
 import java.util.ArrayList;
 
-public class WildCards {
+public  class WildCards {
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>();
-        arr.set(0,11);
-        arr.set(1,33);
-        arr.set(2,111);
-        readList(arr);
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(10);
+        arrayList.add(20);
+        arrayList.add(30);
+        arrayList.add(40);
+        arrayList.add(50);
+        read(arrayList);
     }
-    public static void readList(ArrayList<?> arr){
-        for (int i = 0;i<arr.size();i++){
-            System.out.println(arr.get(i));
+    public static void read(ArrayList<? extends Number> arr){
+        for (Number ele : arr){
+            System.out.println(ele);
         }
-    }
-    public <T> T listFun(ArrayList<T> arr){
-        return  arr.get(0);
     }
 }
