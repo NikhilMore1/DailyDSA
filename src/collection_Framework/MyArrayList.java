@@ -1,10 +1,16 @@
 package collection_Framework;
-
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 class MyException extends IOException {
     public MyException(String str){
         super(str);
+    }
+}
+class MyDataType<E>{
+    MyDataType(){
+        super();
     }
 }
 class CustomMyArrayList<E> {
@@ -189,6 +195,85 @@ class CustomMyArrayList<E> {
         }
         return flag;
     }
+    public static void reverse(CustomMyArrayList list) throws MyException {
+        int f = 0;
+        int l = list.size-1;
+        CustomMyArrayList list1 = new CustomMyArrayList();
+        for (int i = list.size-1;i>=0;i--){
+            list1.add(list.get(i));
+        }
+        System.out.println(list1);
+    }
+   public static boolean replaceAll(CustomMyArrayList list, Object old, Object newV) throws MyException {
+        boolean flag = false;
+        for (int i = 0;i<list.size;i++){
+            if (list.get(i).equals(old)){
+                list.set(i,newV);
+                flag = true;
+            }
+        }
+       System.out.println(list);
+        return flag;
+   }
+   public static void swap(CustomMyArrayList list,int f,int l) throws MyException {
+        Object temp = list.get(f);
+        Object temp1 = list.get(l);
+        list.set(f,temp1);
+        list.set(l,temp);
+       System.out.println(list);
+   }
+   public static Object min(CustomMyArrayList list) throws MyException {
+        int min = (int) Integer.MAX_VALUE;
+        for (int i = 0;i<list.size;i++){
+            int value =(int) list.get(i);
+            if (value<min){
+                min = value;
+            }
+        }
+        return min;
+   }
+   public static Object max(CustomMyArrayList list) throws MyException {
+        int max = (int) Integer.MIN_VALUE;
+        for (int i = 0;i< list.size;i++){
+            int value = (int) list.get(i);
+            if (value>max){
+                max= value;
+            }
+        }
+        return max;
+   }
+   public static void copy(CustomMyArrayList list1,CustomMyArrayList list2) throws MyException {
+        if (list1.size < list2.size){
+            throw  new MyException("Index out of bounds ");
+        }
+        for (int i = 0;i<list2.size;i++){
+            list1.set(i,list2.get(i));
+        }
+
+       System.out.println(list1);
+   }
+   public static void fill(CustomMyArrayList list,Object ele) throws MyException {
+        for (int i = 0;i<list.size;i++){
+            list.set(i,ele);
+        }
+       System.out.println(list);
+   }
+   public static void rotate(CustomMyArrayList list,int dis) throws MyException {
+        if (dis>list.size){
+            throw new MyException("IndexOutOfBounds Exception");
+        }
+        CustomMyArrayList<Object> temp = new CustomMyArrayList<>();
+       CustomMyArrayList<Object> temp1 = new CustomMyArrayList<>();
+        int idx = 0;
+        for (int i = 0;i<=dis;i++){
+               temp.add(list.get(i));
+        }
+        for (int i = dis+1;i<list.size;i++){
+            temp1.add(list.get(i));
+        }
+        temp1.addAll(temp);
+       System.out.println(temp1 +"nn");
+   }
 }
 public class MyArrayList {
     public static void main(String[] args) throws MyException {
@@ -207,22 +292,38 @@ public class MyArrayList {
         System.out.println(data.addAll(data1));
 
         CustomMyArrayList<Integer> arr = new CustomMyArrayList<>();
+        CustomMyArrayList<Integer> ar1 = new CustomMyArrayList<>();
+        ar1.add(100);
+        ar1.add(200);
         arr.add(10);
         arr.add(20);
         arr.add(30);
         arr.add(40);
         arr.add(50);
+        CustomMyArrayList.reverse(arr);
+        CustomMyArrayList.replaceAll(arr,30,400);
+        System.out.println(arr);
+        CustomMyArrayList.swap(arr,1,2);
+        System.out.println(CustomMyArrayList.min(arr));
+        System.out.println(CustomMyArrayList.max(arr));
+        System.out.println(arr);
+        CustomMyArrayList.copy(arr,ar1);
+//        CustomMyArrayList.fill(arr,"X");
+//        System.out.println(arr);
+//        CustomMyArrayList.rotate(arr,2);
+        System.out.println(arr);
+        CustomMyArrayList.rotate(arr,2);
 //        System.out.println(arr.remove(4));
 //        System.out.println(arr.getSize());
 //        System.out.println(arr.remove(4));
 //        System.out.println(arr);
 //        System.out.println(arr.indexOf(30));
-        CustomMyArrayList<Integer> ar = new CustomMyArrayList<>();
-        ar.add(10);
-        ar.add(20);
-//        System.out.println(arr.retainAll(ar));
-//        System.out.println(arr);
-        System.out.println(arr.addAll(ar));
+//        CustomMyArrayList<Integer> ar = new CustomMyArrayList<>();
+//        ar.add(10);
+//        ar.add(20);
+////        System.out.println(arr.retainAll(ar));
+////        System.out.println(arr);
+//        System.out.println(arr.addAll(ar));
 
     }
 }
