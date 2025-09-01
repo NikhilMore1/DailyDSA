@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
-      <change afterPath="$PROJECT_DIR$/src/collection_Framework/Cursors/CustomEnumaration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection_Framework/Cursors/CustomIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection_Framework/Movies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_Framework/ComparatorEg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_Framework/HashSet/HashSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_Framework/HashSet/Hashset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_Framework/HashSet/LinkedHashSet/LinkedHashSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection_Framework/TreeSets/TreeSetEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection_Framework/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_Framework/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_Framework/Cursors/CustomIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_Framework/Cursors/CustomIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
     "Application.CheckRotationString.executor": "Run",
     "Application.CombinationOfNum.executor": "Run",
     "Application.Combination_Sum_LeetCode.executor": "Run",
+    "Application.ComparatorEg.executor": "Run",
     "Application.CompareObj.executor": "Run",
     "Application.CustomArrayList.executor": "Run",
     "Application.CustomDoublyLL.executor": "Run",
@@ -127,6 +130,8 @@
     "Application.GroupOfAnagrames.executor": "Run",
     "Application.GroupOfAnagrams.executor": "Run",
     "Application.HarshadNo.executor": "Run",
+    "Application.HashSetEx.executor": "Run",
+    "Application.Hashset.executor": "Run",
     "Application.Incapsulation.executor": "Run",
     "Application.IntToString.executor": "Run",
     "Application.Introduction.executor": "Run",
@@ -139,6 +144,7 @@
     "Application.LessMarksIndex.executor": "Run",
     "Application.Linear2D.executor": "Run",
     "Application.Linear_Search_Rec.executor": "Run",
+    "Application.LinkedHashSetEx.executor": "Run",
     "Application.LongestAubString_3.executor": "Run",
     "Application.LongestPalindrom.executor": "Run",
     "Application.LongestSentence.executor": "Run",
@@ -223,6 +229,7 @@
     "Application.SumOfElements.executor": "Run",
     "Application.Sum_3.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TreeSetEx.executor": "Run",
     "Application.TripletSubArr.executor": "Run",
     "Application.Two_To_OneDim.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
@@ -589,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756447075883</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
+      <option name="closed" value="true" />
+      <created>1756617121609</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1756617121610</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

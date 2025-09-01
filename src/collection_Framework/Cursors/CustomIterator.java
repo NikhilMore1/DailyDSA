@@ -37,7 +37,6 @@ public class CustomIterator<E>{
 
         }
     }
-
     @Override
     public String toString(){
         if(size == 0){
