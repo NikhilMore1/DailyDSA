@@ -12,7 +12,6 @@ public class RemoveDuplicates {
         }
         return removeA(arr,ans,++i);
     }
-
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
         ArrayList<Integer>ans = new ArrayList<>();
