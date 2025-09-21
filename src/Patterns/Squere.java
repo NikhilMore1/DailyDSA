@@ -1,22 +1,46 @@
 package Patterns;
+public  class Squere {
+    public static void main(String[] args) {
+            int n = 5;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Scanner;
+            // Top half
+            for (int i = 1; i <= n; i++) {
+                // Left stars
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
 
-public class Squere {
-    public static void main(String[] args)throws IOException {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no of row");
-        int row = sc.nextInt();
-        System.out.println("Enter the no cols");
-        int col =sc.nextInt();
-        for (int i=1;i<=row;i++){
-            for (int j=1;j<=col;j++){
-                System.out.print("* ");
+                // Middle spaces
+                for (int j = 1; j <= 2 * (n - i); j++) {
+                    System.out.print(" ");
+                }
+                // Right stars
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+
+                System.out.println();
             }
-            System.out.println();
+
+            // Bottom half
+            for (int i = n; i >= 1; i--) {
+                // Left stars
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+
+                // Middle spaces
+                for (int j = 1; j <= 2 * (n - i); j++) {
+                    System.out.print(" ");
+                }
+
+                // Right stars
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+
+                System.out.println();
+            }
         }
     }
-}
+

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class KadensAlgo {
     public static void main(String[] args) {
-        int[] arr = {1};
+        int[] arr = {1,2,3,4};
         System.out.println(getSum(arr));
     }
   public static int getSum(int[] arr){

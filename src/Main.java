@@ -1,5 +1,8 @@
 import java.util.Arrays;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Main {
     public static int getMax(int[] arr){
         int max = Integer.MIN_VALUE;
@@ -177,9 +180,202 @@ public class Main {
         }
         return arr.size();
    }
+    public static int[] getRotateLeft(int[] arr,int k){
+        int[] ans = new int[arr.length];
+        int[] first = new int[k];
+        for(int i = 0;i<k;i++){
+            first[i] = arr[i];
+        }
+        int id = 0;
+        for(int i = k;i<arr.length;i++){
+            ans[id++] = arr[i];
+        }
+        int count = 0;
+        for(int i = id;i<ans.length;i++){
+            ans[id++] = first[count++];
+        }
+        return ans;
+    }
+
+    public static int[] getRotatedRight(int[] arr,int k){
+        int[] ans = new int[arr.length];
+        int[] first = new int[k];
+        int id = 0;
+        for(int i = arr.length-1;i>k;i--){
+            first[id++] = arr[i];
+        }
+        int count = 0;
+        for(int i = 0;i<first.length;i++){
+            ans[count++] = first[i];
+        }
+        int j = 0;
+        for(int i = count;i<ans.length;i++){
+            ans[i] = arr[j++];
+        }
+        return ans;
+    }
+//    public static String longestCommonPrefix(String[] arr){
+//        String ans = "";
+//
+//    }
+    public static List<Integer> reverseList(LinkedList<Integer> list){
+        int left = 0;
+        int right = list.size()-1;
+        while (left<right){
+            int temp = list.get(left);
+            list.set(left,list.get(right));
+            list.set(right,temp);
+            left++;
+            right--;
+        }
+        return list;
+    }
+    public static String getUpdatedString(String str){
+        String[] arr = str.split(" ");
+        StringBuffer sb = new StringBuffer();
+        for (String ele : arr){
+            sb.append(Character.toUpperCase(ele.charAt(0)));
+            sb.append(ele.substring(1));
+            sb.append(" ");
+        }
+        return new String(sb);
+    }
+    public static String palindrome(String str){
+        String ans = "";
+        int max = 0;
+        char[] arr = str.toCharArray();
+        for (int i = 0;i<arr.length;i++){
+            String sub = "";
+            for (int j = i;j<arr.length;j++){
+                sub = str.substring(i,j+1);
+                if(rev(sub)){
+                    if(max<sub.length()){
+                        max = sub.length();
+                        ans = sub;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+    public static boolean rev(String s){
+        int left = 0;
+        int right = s.length()-1;
+        while (left<right){
+            if (s.charAt(left++) != s.charAt(right--)){
+                return false;
+            }
+        }
+        return true;
+    }
+    public static boolean checkMail(String s){
+        Pattern p = Pattern.compile("^[A-Za-z0-9+_.-]+@[A-Za-z.]+$");
+        Matcher m = p.matcher(s);
+        boolean check = m.matches();
+        return check;
+    }
+    public static boolean checkMobile(String mob){
+        Pattern p = Pattern.compile("\\d{10}");
+        Matcher m = p.matcher(mob);
+        boolean check = m.matches();
+        return check;
+    }
+    public static void extractText(String s){
+        Pattern p = Pattern.compile("\\w+");
+        Matcher m = p.matcher(s);
+        while (m.find()){
+            System.out.println(m.group());
+        }
+    }
+    public static boolean onlyDigit(String s){
+        Pattern p = Pattern.compile("^[A-Za-z]+");
+        Matcher m = p.matcher(s);
+        boolean check = m.matches();
+        return check;
+    }
+    public static void extractNum(String s){
+        Pattern p = Pattern.compile("\\d+");
+        Matcher m = p.matcher(s);
+        while (m.find()){
+            System.out.println(m.group());
+        }
+    }
+    public static boolean validateMail(String s){
+        Pattern p = Pattern.compile("^[A-Za-z0-9+_.-]+@[A-Za-z+.]+$");
+        Matcher m = p.matcher(s);
+        boolean check = m.matches();
+        return check;
+    }
+    public static String palind(String str){
+        int max = 0;
+        char[] arr = str.toCharArray();
+        String ans = "";
+        for (int i = 0;i<arr.length;i++){
+            String sub = "";
+            for (int j = i;j<arr.length;j++){
+                sub = str.substring(i,j+1);
+                if(reverse(sub)){
+                    if(max<sub.length()){
+                        max = sub.length();
+                        ans = sub;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+    public static boolean reverse(String s){
+        int left = 0;
+        int right = s.length()-1;
+        while (left<right){
+            if(s.charAt(left++)!=s.charAt(right--)){
+                return false;
+            }
+        }
+        return true;
+    }
+    public static ArrayList<String> mostFreqEle(String str,int k){
+        String temp = str.replaceAll("^[A-Za-z]","");
+        String[] arr = temp.split(" ");
+        ArrayList<String> arrayList = new ArrayList<>();
+        HashMap<String,Integer>map = new HashMap<>();
+        for (String ele:arr){
+            arrayList.add(ele);
+        }
+        for (int i = 0;i<arr.length;i++){
+            map.put(arr[i],Collections.frequency(arrayList,arr[i]));
+        }
+        System.out.println(map);
+        ArrayList<String> ans = new ArrayList<>();
+        int max = 0;
+        int secMax = 0;
+        for (Map.Entry<String,Integer>entry:map.entrySet()){
+            if(max<entry.getValue()){
+                secMax = max;
+                max = entry.getValue();
+            }
+        }
+
+        return ans;
+    }
     public static void main(String[] args) {
-        int[] arr = {1,8,6,2,5,4,8,3,7};
-        String str = "pwwkew";
-        System.out.println(longestStringlength(str));
+        extractText("Hello regex 123 !@");
+        System.out.println(checkMobile("976697962"));
+        System.out.println(palindrome("hellomadamhe"));
+        System.out.println("---------------");
+        System.out.println(onlyDigit("shffhkfhkshfkhfhf32"));
+        extractNum("12java regex3 2hi5");
+        System.out.println(validateMail("moren9817@gmail.com"));
+        System.out.println(palind("hellomadamhe"));
+        System.out.println(mostFreqEle("java is lang java is not pyhton java is not oop java is fast",2));
+//        System.out.println(getUpdatedString("hello nikhil more"));
+//        int[] arr = {1,8,6,2,5,4,8,3,7};
+//        System.out.println(Arrays.toString(getRotateLeft(arr,3)));
+//
+//        LinkedList<Integer>list = new LinkedList<>();
+//        list.add(10);
+//        list.add(20);
+//        list.add(30);
+//        System.out.println(removeEvenIndex(list));
     }
 }

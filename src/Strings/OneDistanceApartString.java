@@ -3,7 +3,7 @@ package Strings;
 public class OneDistanceApartString {
     public static void main(String[] args) {
         String a = "abc";
-        String aa = "abc";
+        String aa = "abcd";
         System.out.println(check(a,aa));
     }
     public static boolean check(String str1,String str2){
