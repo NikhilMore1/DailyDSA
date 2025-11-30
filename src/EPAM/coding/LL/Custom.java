@@ -113,6 +113,7 @@ public class Custom<E> {
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();
         ll.add(10);
+        ll.add(100);
         ll.add(20);
         ll.add(30);
         System.out.println(ll);
