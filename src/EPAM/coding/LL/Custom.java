@@ -1,139 +1,171 @@
 package EPAM.coding.LL;
 
-import java.util.LinkedList;
-class NoSuchElementEx extends RuntimeException{
-    NoSuchElementEx(String s){
+class NoSuchElementEx extends RuntimeException {
+    NoSuchElementEx(String s) {
         super(s);
     }
 }
-public class Custom<E> {
-    private Node head;
-    private Node tail;
+
+public class Custom<E extends Comparable<E>> {
+
+    private Node<E> head;
+    private Node<E> tail;
     private int size = 0;
-    class Node{
-        E data;
-        Node next;
-        Node(E data){
+
+    class Node<T> {
+        T data;
+        Node<T> next;
+
+        Node(T data) {
             this.data = data;
         }
     }
-    public int size(){
-        return size;
-    }
-    public boolean isEmpty(){
-        return size==0;
-    }
 
-    public boolean add(E data){
-        Node node = new Node(data);
-        if (head == null){
+    public int size() { return size; }
+
+    public boolean isEmpty() { return size == 0; }
+
+    public boolean add(E data) {
+        Node<E> node = new Node<>(data);
+        if (head == null) {
             head = node;
-            tail = head;
-            size++;
-            return true;
+            tail = node;
+        } else {
+            tail.next = node;
+            tail = node;
         }
-        tail.next = node;
-        tail = node;
         size++;
         return true;
     }
 
-    public void addFirst(E data){
-        Node node = new Node(data);
-        if(head == null){
-            head = node;
-            tail = head;
-            size++;
-            return;
-        }
+    public void addFirst(E data) {
+        Node<E> node = new Node<>(data);
+
         node.next = head;
         head = node;
+
+        if (tail == null) tail = node;
         size++;
     }
-    public void addLast(E data){
-        Node node = new Node(data);
-        if (head == null){
-            addFirst(data);
-            return;
-        }
-        tail.next = node;
-        tail = node;
-        size++;
-    }
-    public E getFirst(){
-        if (head==null){
-            throw new NoSuchElementEx("No Such Element Exception");
-        }
+
+    public E getFirst() {
+        if (head == null)
+            throw new NoSuchElementEx("No Such Element");
         return head.data;
     }
-    public E getLast(){
-        if (head==null){
-            throw new NoSuchElementEx("No such Element Exception");
-        }
-        Node temp = head;
-        while (temp.next!=null){
-            temp = temp.next;
-        }
-        return temp.data;
+
+    public E getLast() {
+        if (tail == null)
+            throw new NoSuchElementEx("No Such Element");
+        return tail.data;
     }
-    public String toString(){
-        String data = "[ ";
-        Node temp = head;
-        while (temp.next!=null){
-            data = data+temp.data+" ,";
-            temp = temp.next;
-        }
-        data = data+temp.data;
-        return data+" ]";
-    }
-    public E removeFirst(){
-        if (head == null){
-            throw new NoSuchElementEx("No Element found");
-        }
+
+    public E removeFirst() {
+        if (head == null)
+            throw new NoSuchElementEx("No Element");
+
         E data = head.data;
         head = head.next;
+
+        if (head == null) tail = null;
+        size--;
         return data;
     }
-    public E removeLast(){
-        if (head == null){
-            throw new NoSuchElementEx("No Such Element found");
+
+    public E removeLast() {
+        if (head == null)
+            throw new NoSuchElementEx("No Element");
+
+        if (head.next == null) {
+            return removeFirst();
         }
-        Node temp = head;
-        while (temp.next.next != null){
+
+        Node<E> temp = head;
+        while (temp.next.next != null)
             temp = temp.next;
-        }
+
         E data = temp.next.data;
         temp.next = null;
         tail = temp;
+        size--;
         return data;
+    }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder("[ ");
+        Node<E> temp = head;
+
+        while (temp != null) {
+            sb.append(temp.data);
+            if (temp.next != null) sb.append(", ");
+            temp = temp.next;
+        }
+        sb.append(" ]");
+        return sb.toString();
+    }
+
+    // ⭐ Correct Merge (for sorted lists)
+    public Custom<E> merge(Custom<E> c1, Custom<E> c2) {
+
+        Custom<E> merged = new Custom<>();
+
+        Node<E> dummy = new Node<>(null);
+        Node<E> current = dummy;
+
+        Node<E> t1 = c1.head;
+        Node<E> t2 = c2.head;
+
+        while (t1 != null && t2 != null) {
+            if (t1.data.compareTo(t2.data) <= 0) {
+                current.next = t1;
+                t1 = t1.next;
+            } else {
+                current.next = t2;
+                t2 = t2.next;
+            }
+            current = current.next;
+            merged.size++;
+        }
+
+        while (t1 != null) {
+            current.next = t1;
+            t1 = t1.next;
+            current = current.next;
+            merged.size++;
+        }
+
+        while (t2 != null) {
+            current.next = t2;
+            t2 = t2.next;
+            current = current.next;
+            merged.size++;
+        }
+
+        merged.head = dummy.next;
+        Node<E> temp = merged.head;
+        while (temp != null && temp.next != null)
+            temp = temp.next;
+        merged.tail = temp;
+        return merged;
     }
 
 
+
+    public Custom<E> reverse(Custom<E> custom){
+
+    }
+
     public static void main(String[] args) {
-        LinkedList<Integer> ll = new LinkedList<>();
-        ll.add(10);
-        ll.add(100);
-        ll.add(20);
-        ll.add(30);
-        System.out.println(ll);
 
+        Custom<Integer> c1 = new Custom<>();
+        c1.add(10); c1.add(20); c1.add(30);
 
-        Custom<Integer> custom = new Custom<>();
-        custom.add(10);
-        custom.add(20);
-        custom.add(30);
-        custom.add(40);
-        custom.add(50);
-        custom.add(60);
-        System.out.println(custom);
-        System.out.println(custom.getFirst());
-        System.out.println(custom.getLast());
-        custom.addLast(1000);
-        custom.addFirst(300);
-        System.out.println(custom);
-        System.out.println(custom.removeFirst());
-        System.out.println(custom);
-        System.out.println(custom.getLast());
+        Custom<Integer> c2 = new Custom<>();
+        c2.add(5); c2.add(15); c2.add(25);
+
+        Custom<Integer> merged = c1.merge(c1, c2);
+
+        System.out.println(merged);
     }
 }
