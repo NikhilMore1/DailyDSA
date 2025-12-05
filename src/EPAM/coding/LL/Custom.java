@@ -1,5 +1,7 @@
 package EPAM.coding.LL;
 
+import EPAM.coding.queue.Main;
+
 class NoSuchElementEx extends RuntimeException {
     NoSuchElementEx(String s) {
         super(s);
@@ -152,8 +154,43 @@ public class Custom<E extends Comparable<E>> {
 
 
 
-    public Custom<E> reverse(Custom<E> custom){
+    public Custom<E> reverse(){
+        Node<E> prev = null;
+        Node<E> curr = head;
+        Node<E> next1 = null;
+        while (curr!=null){
+            next1 = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next1;
+        }
+        head = prev;
+        return this;
+    }
+    public E middleEle(){
+        int mid =(int) Math.ceil(size/2);
+        int c = 0;
+        Node<E> temp = head;
+        while (c<mid){
+            temp = temp.next;
+            c = c+1;
+        }
+        System.out.println(temp.data);
+        return temp.data;
+    }
+    public boolean isCycle(){
+        Node<E> slow = head;
+        Node<E> fast = head;
+        while (fast!=null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast){
+                return true;
+            }
+        }
+        return false;
 
+        //using slow fast pointers floyed's tortoise hare algo
     }
 
     public static void main(String[] args) {
@@ -162,10 +199,12 @@ public class Custom<E extends Comparable<E>> {
         c1.add(10); c1.add(20); c1.add(30);
 
         Custom<Integer> c2 = new Custom<>();
-        c2.add(5); c2.add(15); c2.add(25);
+        c2.add(5); c2.add(15); c2.add(25); c2.add(40);
 
         Custom<Integer> merged = c1.merge(c1, c2);
 
         System.out.println(merged);
+        System.out.println(merged.reverse());
+        System.out.println(merged.middleEle());
     }
 }

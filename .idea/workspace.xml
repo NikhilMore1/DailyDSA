@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dc21a6-63e5-4140-98dd-5b84ebc4c870" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
-      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/ConcatArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Amazon/Arrays/ShuffleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/PeakInMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/CeilingOfNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/ComparableEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/ComparatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/Cursors/Enumaration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/Cursors/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/SetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/SortByEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/SortByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/ArrayList/MissingNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/HashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/HashSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/Heaps/PriorityQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/LL/CusLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/Stacks/BalanceParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EPAM/coding/Stacks/Custom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EPAM/coding/LL/Custom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EPAM/coding/LL/Custom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Missing_Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Missing_Num.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +82,7 @@
     &quot;Application.ArrayToSub2.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArrayToSubArr.executor&quot;: &quot;Run&quot;,
     &quot;Application.BST_code.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BalanceParanthesis.executor&quot;: &quot;Run&quot;,
     &quot;Application.Basics.executor&quot;: &quot;Run&quot;,
     &quot;Application.Binary.executor&quot;: &quot;Run&quot;,
     &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
@@ -113,6 +108,7 @@
     &quot;Application.ConcatArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountAndSay.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountSubarryWithKEle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CusLL.executor&quot;: &quot;Run&quot;,
     &quot;Application.Custom.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomArrayList.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomBT.executor&quot;: &quot;Run&quot;,
@@ -156,6 +152,7 @@
     &quot;Application.GroupOfAnagrams.executor&quot;: &quot;Run&quot;,
     &quot;Application.H_index.executor&quot;: &quot;Run&quot;,
     &quot;Application.HarshadNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMaps.executor&quot;: &quot;Run&quot;,
     &quot;Application.HashSetEx.executor&quot;: &quot;Run&quot;,
     &quot;Application.HashSetPrograms.executor&quot;: &quot;Run&quot;,
     &quot;Application.Hashset.executor&quot;: &quot;Run&quot;,
@@ -189,6 +186,7 @@
     &quot;Application.MaximumNoOFWordsType1935.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumSumSubArr.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNum.executor&quot;: &quot;Run&quot;,
     &quot;Application.MissingNums.executor&quot;: &quot;Run&quot;,
     &quot;Application.Missing_Num.executor&quot;: &quot;Run&quot;,
     &quot;Application.MostOneCount.executor&quot;: &quot;Run&quot;,
@@ -216,6 +214,7 @@
     &quot;Application.PeakInMountainArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.PickEleMountainArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.PosAndNeg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQ.executor&quot;: &quot;Run&quot;,
     &quot;Application.QSP_pattern.executor&quot;: &quot;Run&quot;,
     &quot;Application.Que40.executor&quot;: &quot;Run&quot;,
     &quot;Application.Que66.executor&quot;: &quot;Run&quot;,
@@ -313,7 +312,7 @@
       <recent name="Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.remove_Element">
+  <component name="RunManager">
     <configuration name="Sorting_Using_Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.Recursion_Sorting.Sorting_Using_Comparable" />
       <module name="DailyDSA" />
@@ -349,14 +348,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747835469972</updated>
-    </task>
-    <task id="LOCAL-00001" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
-      <option name="closed" value="true" />
-      <created>1747835565932</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1747835565932</updated>
     </task>
     <task id="LOCAL-00002" summary="git init&#10;git commit -m &quot;first commit&quot;&#10;git branch -M main&#10;git remote add origin https://github.com/NikhilMore1/DailyDSA.git&#10;git push -u origin main">
       <option name="closed" value="true" />
@@ -742,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764513858036</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/Recurssion/Recurssion2.java">
+      <option name="closed" value="true" />
+      <created>1764755340475</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1764755340476</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
